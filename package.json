@@ -8,7 +8,6 @@
         "lint:js": "eslint --ext ./src/**/*.js",
         "lint:fix": "eslint --fix ./src/**/*.js",
         "lint:css": "stylelint ./src/**/*.css --fix",
-        "prepare": "husky install",
         "lint": "npm run lint:js && npm run lint:css",
         "build": "cross-env NODE_ENV=production webpack",
         "start": "webpack-dev-server --open"
